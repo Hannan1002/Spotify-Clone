@@ -14,6 +14,7 @@ A clone of Spotify website using HTML, CSS and a little JavaScript. The clone co
 To view the Basic Spotify Clone Website locally on your machine:
 
 1. Clone the repository:
-  git clone https://github.com/your-username/basic-spotify-clone.git
+|_ git clone https://github.com/Hannan1002/Spotify-Clone.git
+
 2. Open the `index.html` file in your web browser.
-  Feel free to contact me with any questions. Enjoy your simple Spotify browsing experience!
+|_ Feel free to contact me with any questions. Enjoy your simple Spotify browsing experience!
