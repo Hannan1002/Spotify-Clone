@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content" id="starter"></div>
+        <div class="sidebar">
+            <div class="sidebar-start"></div>
+            <div class="nav">
+                <div class="nav-option">
+                    <div class="container-option nav-controller explicit-65"></div>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="library-top">
+                    <div class="nav-option">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                        <div class="image_controller"></div>
+                    </div>
+                    <div class="icons">
+                        <div class="icons controller"></div>
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="library-bottom">
+                    <div class="box">
+                        <div class="a30f" id="wef789"></div>
+                        <p class="box-p1">
+                            Create your first playlist
+                        </p>
+                        <p class="box-p2">
+                            <div class="f4fwog"></div>
+                            It's easy, we'll help you
+                        </p>
+                        <button class="badge">
+                            Create playlist
+                        </button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">
+                            Let's find some podcasts to follow
+                        </p>
+                        <p class="box-p2">
+                            We'll keep you updated on new episodes
+                        </p>
+                        <button class="badge">
+                            <a href="https://open.spotify.com/genre/podcasts-web" style="background-color: white; color: black;">Browse podcasts</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="full-bottom">
+                    <div class="bottom_controller"></div>
+                    <div class="lower-bottom">
+                        <a href="#">Legal</a>
+                        <a href="#">Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="cookies">Cookies</a>
+                    </div>
+                    <button class="border-white">
+                        <div class="fa-global"></div>
+                        <i class="fa-solid fa-globe" style="color: #ffffff;"></i>
+                        <a href="#">English</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="one-half">
+                    <div class="one-half-half">
+                        <div class="content_modifier"></div>
+                        <img src="backward_icon.png" class="img1">
+                        <img src="forward_icon.png" class="img2">
+                    </div>
+                    <div class="one-half-leftover">
+                        <div class="left_over_controller_34"></div>
+                        <a href="https://www.spotify.com/in-en/premium/?utm_source=app&utm_medium=desktop&utm_campaign=upgrade&ref=web_loggedout_premium_button" target="_main_"><div class="premium">Premium</div></a>
+                        <a href="https://support.spotify.com/in-en/" target="_main_"><div class="support">Support</div></a>
+                        <a href="https://www.spotify.com/in-en/download/windows/" target="_main_"><div class="download">Download</div></a>
+                        <div class="white-space"></div>
+                        <a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F"><div class="sign-up">Sign up</div></a>
+                        <button class="badge1"><a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F" style="background-color: #ffffff; color: black;">Log In</a></button>
+                    </div>
+                </div>
+                <!-- 1st Block -->
+                <div class="top">
+                    <h2>Recently Played</h2>
+                    <h6>Show all</h6>
+                </div>
+                <div class="card-container">
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="metamorphosis.jpg">
+                        <button id="nice">
+                            <div id="anotherplayButton">
+                                <i class="fa-solid fa-play fa-sm" id="anotherButton" style="color: #000000;"></i>
+                            </div>
+                        </button>
+                        <p class="card-title">METAMORPHOSIS</p>
+                        <p class="card-info"><span class="me">E</span> <span class="interworld">INTERWORLD</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="card1img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+
+                <!-- 1st Block -->
+                <div class="top">
+                    <h2>Made in India</h2>
+                    <h6>Show all</h6>
+                </div>
+                <div class="card-container">
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="obs.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Obsessed</p>
+                        <p class="card-info"><span class="interworld">Riar Saab</span> & <span class="interworld">Abhijay Sharma</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="path.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Jhoome Jo Pat ...</p>
+                        <p class="card-info"><span class="interworld">Vishal Shekhar</span> , <span class="interworld">Arijit Singh</span> , <span class="interworld">Shukriti Ka</span> ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="fitoor.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Fitoor</p>
+                        <p class="card-info"><span class="interworld">Mithoon</span> , <span class="interworld">Arijit Singh</span> , <span class="interworld">Neeti Mohan</span> , <span class="interworld">Kar</span> ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="pass.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Pasoori</p>
+                        <p class="card-info"><span class="interworld">Shae Gill</span> & <span class="interworld">Ali Sethi</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="kgf.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Mehbooba</p>
+                        <p class="card-info"><span class="interworld">Ravi Basrur</span> & <span class="interworld">Ananya Bhat</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="raatan.webp">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Raataan Lambi ...</p>
+                        <p class="card-info"><span class="interworld">Jubin Nautiyal</span> , <span class="interworld">Asees Kaur</span> & <span class="interworld">Tanishk Bag</span> ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="carnival.webp">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Tu Aake Dekhle</p>
+                        <p class="card-info"><span class="interworld">King</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="tum.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Tum Mere</p>
+                        <p class="card-info"><span class="interworld">Darshan Raval</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="rasi.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Rasiya</p>
+                        <p class="card-info"><span class="interworld">Pritam</span> , <span class="interworld">Shreya Ghoshal</span> & <span class="interworld">Tushar</span> ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="lee.jpg">
+                        <i class="fa-solid fa-play fa-sm" id="han" style="color: #000000;"></i>
+                        <p class="card-title">Le Chal</p>
+                        <p class="card-info"><span class="interworld">Himanshu Parikh</span></p>
+                    </div>
+                </div>
+
+                <!-- 1st Half Block -->
+                <div class="top">
+                    <h2>Recommended for today</h2>
+                    <h6>Show all</h6>
+                </div>
+                <div class="card-container">
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="dreamers.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Dreamers [Mus...</p>
+                        <p class="card-info"><span class="interworld">Jung Kook</span> , <span class="interworld">BTS</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="your.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Your Heart Or Mine</p>
+                        <p class="card-info"><span class="interworld">Jon Pardi</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="sta.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Stay</p>
+                        <p class="card-info"><span class="interworld">The Kid Larol</span> & <span class="interworld">Justin Beiber</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="dyna.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Dynamite</p>
+                        <p class="card-info"><span class="interworld">BTS</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="lemon.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Lemonade</p>
+                        <p class="card-info"><span class="interworld">Internet Money</span> , <span class="interworld">Gunna</span> , <span class="interworld">Don Tol</span> ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="happier.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Happier Than Ever</p>
+                        <p class="card-info"><span class="interworld">Billie Eilish</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="heat.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Heat Waves</p>
+                        <p class="card-info"><span class="interworld">Glass ANIMALS</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="play.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Play</p>
+                        <p class="card-info"><span class="interworld">Ricii Lompeurs</span> & <span class="interworld">Ticia</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="day.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Daylight</p>
+                        <p class="card-info"><span class="interworld">David Kushner</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="pop.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Popular</p>
+                        <p class="card-info"><span class="interworld">The Weeknd</span> , <span class="interworld">Playboi Carti</span> & <span class="interworld">Madonna</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="calm.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Cruel Summer</p>
+                        <p class="card-info"><span class="interworld">Taylor Swift</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="after_dark.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">After Dark</p>
+                        <p class="card-info"><span class="interworld">Mr. Kitty</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="fuku.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Fukumean</p>
+                        <p class="card-info"><span class="interworld">Gunna</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="rod.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Vampire</p>
+                        <p class="card-info"><span class="interworld">Olivia Rodrigo</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="ml.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Memory Lane</p>
+                        <p class="card-info"><span class="interworld">Old Dominion</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="dnight.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Dance The Night</p>
+                        <p class="card-info"><span class="interworld">Dua Lipa</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="rel.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Religiously</p>
+                        <p class="card-info"><span class="interworld">Bailey Zimmerman</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="butt.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Butter</p>
+                        <p class="card-info"><span class="interworld">BTS</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="levi.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Levitating</p>
+                        <p class="card-info"><span class="interworld">Dua Lipa</span></p>
+                    </div>
+                </div>
+                
+                <!-- 2nd Block -->
+                <div class="top">
+                    <h2>Trending now near you</h2>
+                    <h6>Show all</h6>
+                </div>
+                <div class="card-container">
+                    <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="on.jpg">
+                            <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">On My Way</p>
+                        <p class="card-info"><span class="me">E</span> <span class="interworld">Alan Walker</span> , <span class="interworld">Sabrina Carpenter</span> , <span class="interworld">Farruko</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="spotify_ed_sheeren.jpeg">
+                            <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">This is Ed Sheeren</p>
+                        <p class="card-info">All his biggest hits, in one place.</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="card2img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Mahiye Jinna S ...</p>
+                        <p class="card-info">2023 &centerdot; Single</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="card3img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Mere Paas Tum ...</p>
+                        <p class="card-info">2022 &centerdot; Single</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="card4img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Naa Ready (Fro ...</p>
+                        <p class="card-info">2023 &centerdot; Single</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="card5img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Top Songs - Gl ...</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="card6img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="rap_img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">RapCaviar</p>
+                        <p class="card-info">New music from <span class="interworld">Lil Uzi Vert</span> , <span class="interworld">Lil Tjay a</span> ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="Top_100.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">All 00s Hits</p>
+                        <p class="card-info">2021 &centerdot; Various Artists</p>
+                    </div>
+                </div>
+                <div class="top">
+                    <h2>Spotify Playlists</h2>
+                    <h6>Show all</h6>
+                </div>
+                <div class="card-container">
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="T_swift.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Today's Top Hits</p>
+                        <p class="card-info">Taylor Swift is on the top of the Hottest 50!</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="other2.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Songs in the Car</p>
+                        <p class="card-info">By <span class="interworld">Kirstine Herlyn</span> , <span class="interworld">Mae Estrada</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="bts.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">This is BTS</p>
+                        <p class="card-info">What are your Top 5: <span class="interworld">BTS</span> Songs? Share ...</p>
+                    </div>
+                    <div class="card">
+                        <img src="other1.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Rock Classics</p>
+                        <p class="card-info">Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="S_gomz.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">This is Selena ...</p>
+                        <p class="card-info">Listen to Selena's latest releases, pl ...</p>
+                    </div>
+                    <div class="card">
+                        <img src="other3.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">All Out 80s</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="card">
+                        <img src="card1img.jpeg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="a_walker.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">This is Alan Wal ...</p>
+                        <p class="card-info">This is <span class="interworld">Alan Walker</span>. The essential trac ...</p>
+                    </div>
+                </div>
+                
+                <div class="top">
+                    <h2>Classic Oldies</h2>
+                    <h6>Show all</h6>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="kehdu.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Kehdoon Tumhen</p>
+                        <p class="card-info"><span class="interworld">Asha Bhosle</span> , <span class="interworld">Kishore Kumar</span> & <span class="interworld">R. D. Bur</span> ...</p>
+                    </div>
+                    <div class="card">
+                        <img src="chhu.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Chhu Kar Mere ...</p>
+                        <p class="card-info"><span class="interworld">Kishore Kumar</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="aise.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Aise Na Mujhe</p>
+                        <p class="card-info"><span class="interworld">Kishore Kumar</span> & <span class="interworld">R. D. Burman</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="teer.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Tere Jaisa Yaar ...</p>
+                        <p class="card-info"><span class="interworld">Kishore Kumar</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="apke.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Aap Ke Aa Jane ...</p>
+                        <p class="card-info"><span class="interworld">Mohammad Aziz</span> & <span class="interworld">Sadhana Sargam</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="deewani.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Ye Jawani Hai ...</p>
+                        <p class="card-info"><span class="interworld">Kishore Kumar</span> & <span class="interworld">R. D. Burman</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="pap.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Pal Pal Dil Ke P ...</p>
+                        <p class="card-info"><span class="interworld">Kishore Kumar</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="day.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Dilbar Mere</p>
+                        <p class="card-info"><span class="interworld">Kishore Kumar</span> , <span class="interworld">Anette</span> & <span class="interworld">R. D. </span> ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="jul.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Dil Kya Kare</p>
+                        <p class="card-info"><span class="interworld">Kishore Kumar</span></p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="kaal.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Tum Saath Ho J ...</p>
+                        <p class="card-info"><span class="interworld">Asha Bhosle</span> , <span class="interworld">Kishore Kumar</span> & <span class="interworld">R. D. Bu</span> ...</p>
+                    </div>
+                </div>
+
+                <div class="top">
+                    <h2>Sleep</h2>
+                    <h6>Show all</h6>
+                </div>
+                <div class="card-container">
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="sleep_so1.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Sleep</p>
+                        <p class="card-info">Gentle Ambient piano to help you f ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="sleep_so2.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">DayDreamer</p>
+                        <p class="card-info">Drift away with enthralling songs t ...</p>
+                    </div>
+                    <div class="card"> 
+                        <div class="image_card-controller"></div>
+                        <img src="sleep_so3.jpg">
+                        <i class="fa-solid fa-play fa-sm" style="color: #000000;"></i>
+                        <p class="card-title">Nightfall</p>
+                        <p class="card-info">Moony Night - Song to make you fall as ...</p>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    <div class="line">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="left">
+                <div class="image">
+                    <img src="metamorphosis.jpg">
+                    <div class="image-hover" id="hovertext" data-hover="Hello Hannan">
+                        <i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="gap"></div>
+                <div class="owner">
+                    <span class="song">METAMORPHOSIS</span>
+                    <span class="name">INTERWORLD</span>
+                </div>
+                <div class="favourite">
+                    <i class="fa-regular fa-heart" style="color: #ffffff;"></i>
+                </div>
+                <div class="favourites">
+                    <i class="fa-solid fa-tv" style="color: #ffffff;"></i>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="top">
+                    <i class="fa-solid fa-shuffle" id="cascade" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-backward-step" id="cascade" style="color: #ffffff;"></i>
+                    <button id="playButton">
+                        <div class="overlapp">
+                            <i class="fa-solid fa-play" id="mymy" style="color: #000000;"></i>
+                        </div>
+                    </button>
+                    <i class="fa-solid fa-forward-step" id="cascade" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-repeat" id="cascade" style="color: #ffffff;"></i>
+                </div>
+                <div class="bottom">
+                    <audio id="audioPlayer" src="METAMORPHOSIS.mp3"></audio>
+                    <span id="timestamp">0:00</span>
+                    <input type="range" id="musicRange" min="0" max="142" value="1">
+                    <span id="timestamp_id_cascader_none">2:22</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="view">
+                    <i class="fa-solid fa-play" style="color: #ffffff;"></i>
+                </div>
+                <i class="fa-solid fa-music" id="right_icons_control" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-layer-group" id="right_icons_control" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-computer" id="right_icons_control" style="color: #ffffff;"></i>
+                <div class="speaker_volume_knob_controller">
+                    <div class="speaker_module_division">
+                        <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+                        <input type="range" id="volumeRanger" min="0" max="100" step="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Audio Player
+        const audioPlayer = document.getElementById("audioPlayer");
+        const musicRange = document.getElementById("musicRange");
+        const playButton = document.getElementById("playButton");
+        const anotherplayButton = document.getElementById("nice");
+        const timestampElement = document.getElementById("timestamp");
+
+        function updateMusicRange() {
+        // Update the range input value based on the current playback time
+        musicRange.value = audioPlayer.currentTime;
+
+        // Calculate the percentage of the slider's value relative to its max value
+        const percentage = (musicRange.value / musicRange.max) * 100;
+
+        // Set the gradient background for the range input dynamically
+        musicRange.style.background = `linear-gradient(90deg, #1ed760 ${percentage}%, #969696 ${percentage}%)`;
+
+        // Calculate the timestamp and update the display
+        const currentDuration = audioPlayer.currentTime;
+        const timestamp = formatTimestamp(currentDuration);
+        timestampElement.textContent = timestamp;
+        }
+
+        function playPauseAudio() {
+        if (audioPlayer.paused) {
+            audioPlayer.play();
+            anotherplayButton.innerHTML = `
+        <div style="align-items: center; justify-content: center; display: flex; left: 112px; position: absolute; width: 45px; height: 45px; bottom: 117px; opacity: 1; box-shadow: none; border: none; z-index: 2; padding: 0; background-color: transparent;">
+            <i class="fa-solid fa-pause fa-sm" id="anotherButton" style="color: #000000; background-color: #1ed760; border-radius: 100%; font-size: 20px; height: 40px; width: 40px; position: static; z-index: 4; bottom: 0px; left: 0px !important; opacity: 1; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);"></i>
+        </div>
+        `;
+
+            playButton.innerHTML = '<div class="overlapp" style="height: 25px;width: 25px;border-radius: 50%;background-color: white;display: flex;justify-content: center;align-items: center;"><i class="fa-solid fa-pause" style="color: #000000; opacity: 1; background-color: white; font-size: 14px;"></i></div>'; // Pause icon from Font Awesome
+        } else {
+            audioPlayer.pause();
+            playButton.innerHTML = '<div class="overlapp" style="height: 25px;width: 25px;border-radius: 50%;background-color: white;display: flex;justify-content: center;align-items: center;"><i class="fa-solid fa-play" style="color: #000000; opacity: 1; background-color: white; font-size: 14px;"></i></div>'; // Play icon from Font Awesome
+            anotherplayButton.innerHTML = `
+        <div style="align-items: center; justify-content: center; display: flex; left: 112px; position: absolute; width: 45px; height: 45px; bottom: 117px; opacity: 1; box-shadow: none; border: none; z-index: 2; padding: 0; background-color: transparent;">
+            <i class="fa-solid fa-play fa-sm" id="anotherButton" style="color: #000000; background-color: #1ed760; border-radius: 100%; font-size: 20px; height: 40px; width: 40px; position: static; z-index: 4; bottom: 0px; left: 0px !important; opacity: 1; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);"></i>
+        </div>
+        `;
+        }
+        }
+
+        function formatTimestamp(timeInSeconds) {
+        const minutes = Math.floor(timeInSeconds / 60);
+        const seconds = Math.floor(timeInSeconds % 60);
+        return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
+        }
+
+        audioPlayer.addEventListener("timeupdate", updateMusicRange);
+        musicRange.addEventListener("input", () => {
+        // Seek the audio to the selected position when the range input is adjusted
+        audioPlayer.currentTime = musicRange.value;
+        updateMusicRange(); // Update the range colors and timestamp when the slider changes
+        });
+
+        playButton.addEventListener("click", playPauseAudio);
+        anotherplayButton.addEventListener("click", playPauseAudio);
+
+
+        function changeVolumeIcon() {
+            const volumeRange = document.getElementById('volumeRange');
+            const volumeIcon = document.getElementById('volumeIcon');
+            const volumeValue = volumeRange.value;
+
+            if (volumeValue == 0) {
+                volumeIcon.innerHTML = '<i class="fa-solid fa-volume-xmark" style="color: #ffffff;"></i>';
+            } else if (volumeValue >= 1 && volumeValue < 35) {
+                volumeIcon.innerHTML = '<i class="fa-solid fa-volume-off" style="color: #ffffff;"></i>';
+            } else if (volumeValue >= 35 && volumeValue < 75) {
+                volumeIcon.innerHTML = '<i class="fa-solid fa-volume-low" style="color: #ffffff;"></i>';
+            } else {
+                volumeIcon.innerHTML = '<i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>';
+            }
+        }
+    </script>
+</body>
+</html>
